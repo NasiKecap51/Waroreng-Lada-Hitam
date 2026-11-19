@@ -253,3 +253,41 @@ footer {
     justify-content: center;
   }
 }
+
+.halaman-login {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.kartu-login {
+  width: 100%;
+  max-width: 380px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.kartu-login h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.kartu-login input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 4px 0 14px;
+}
+
+.kartu-login .btn {
+  width: 100%;
+}
+
+.kartu-login .pesan {
+  text-align: center;
+  margin-top: 12px;
+}
