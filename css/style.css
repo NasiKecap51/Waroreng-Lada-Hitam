@@ -115,12 +115,20 @@ h2 {
 }
 
 .card .img {
-  height: 140px;
+  height: 200px;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 3.5rem;
   background: linear-gradient(135deg, #bfe3f5, #d8f3dc);
+}
+
+.card .img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card .isi {
@@ -183,9 +191,25 @@ form .btn {
 }
 
 .pesan {
+  display: none;
   margin-top: 12px;
-  color: #c0392b;
+  padding: 10px 12px;
+  border-radius: 8px;
   font-weight: 600;
+}
+
+.pesan.tampil {
+  display: block;
+}
+
+.pesan.sukses {
+  background: #d8f3dc;
+  color: #1b7a3d;
+}
+
+.pesan.gagal {
+  background: #fde2e0;
+  color: #c0392b;
 }
 
 table {
@@ -220,7 +244,7 @@ footer {
   margin-top: 40px;
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .hero h1 {
     font-size: 1.7rem;
   }
