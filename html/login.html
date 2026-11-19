@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - StayKita</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="bar">
+      <a class="logo" href="index.html">🏡 StayKita</a>
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="kamar.html">Kamar</a>
+        <a href="booking.html">Booking</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="login.html" class="aktif">Login</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="dua">
+      <form id="formLogin">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input id="username" type="text" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" required>
+        <button class="btn" type="submit">Masuk</button>
+        <p class="pesan" id="pesan"></p>
+      </form>
+      <form action="login.html" method="get">
+        <h2>Register</h2>
+        <label for="rn">Nama Lengkap</label>
+        <input id="rn" name="rn" type="text" required>
+        <label for="re">Email</label>
+        <input id="re" name="re" type="email" required>
+        <label for="ru">Username</label>
+        <input id="ru" name="ru" type="text" required>
+        <label for="rp">Password</label>
+        <input id="rp" name="rp" type="password" required>
+        <button class="btn" type="submit">Daftar</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 StayKita - Booking Homestay Salatiga. Dibuat oleh Kelompok TR.</p>
+  </footer>
+  <script src="../login.js"></script>
+</body>
+
+</html>
