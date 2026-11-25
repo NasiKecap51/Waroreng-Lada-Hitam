@@ -214,7 +214,7 @@ h3 {
 .hero {
   background:
     linear-gradient(90deg, rgba(8, 40, 38, 0.85), rgba(8, 40, 38, 0.35)),
-    url("../img/hero.svg") center / cover no-repeat;
+    url("../img/background.jpg") center / cover no-repeat;
   color: var(--putih);
   padding: 110px 0 140px;
 }
@@ -703,7 +703,7 @@ th {
 .auth-kiri {
   background:
     linear-gradient(180deg, rgba(8, 40, 38, 0.2), rgba(8, 40, 38, 0.85)),
-    url("../img/auth.svg") center / cover no-repeat;
+    url("../img/pemandangan.jpg") center / cover no-repeat;
   color: var(--putih);
   display: flex;
   flex-direction: column;
