@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - JelajahKita</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap bar">
+        <a class="logo" href="index.html"><span class="logo-ikon">🧭</span>JelajahKita</a>
+        <input type="checkbox" id="menu" class="menu-cek">
+        <label for="menu" class="burger" aria-label="Buka menu"><span></span><span></span><span></span></label>
+        <nav class="menu">
+          <a href="index.html">Beranda</a>
+          <a href="paket.html">Paket</a>
+          <a href="layanan.html">Layanan</a>
+          <a href="galeri.html">Galeri</a>
+          <a href="booking.html">Booking</a>
+          <a href="tentang.html">Tentang</a>
+          <a href="login.html" class="btn btn-kecil aktif">Login</a>
+        </nav>
+      </div>
+    </header>
+    <section class="auth">
+      <div class="auth-kiri">
+        <h2>Selamat Datang Kembali</h2>
+        <p>Masuk untuk memesan paket wisata dan mulai petualanganmu.</p>
+      </div>
+      <div class="auth-kanan">
+      <form id="formLogin" class="form-kartu">
+        <h2>Login</h2>
+        <p class="notif" id="wajib-login">🔒 Silakan login dulu untuk melakukan booking.</p>
+        <p class="ket">Masuk untuk melanjutkan.</p>
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Username" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" required>
+        <button class="btn btn-penuh" type="submit">Masuk</button>
+        <p class="pesan" id="pesan"></p>
+        <p class="tautan">Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+      </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h3>🧭 JelajahKita</h3>
+          <p>Booking paket wisata Salatiga dan sekitarnya yang mudah, jujur, dan menyenangkan untuk keluarga maupun rombongan.</p>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <a href="paket.html">Paket Wisata</a>
+          <a href="layanan.html">Layanan</a>
+          <a href="galeri.html">Galeri</a>
+          <a href="booking.html">Booking</a>
+          <a href="tentang.html">Tentang</a>
+        </div>
+        <div>
+          <h4>Kontak</h4>
+          <p>📍 Salatiga, Jawa Tengah</p>
+          <p>📞 0812-3456-7890</p>
+          <p>✉️ info@jelajahkita.example</p>
+        </div>
+      </div>
+      <p class="hak-cipta">&copy; 2026 JelajahKita. Dibuat oleh Kelompok TR.</p>
+    </footer>
+    <script src="js/auth.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - JelajahKita</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap bar">
+      <a class="logo" href="index.html"><span class="logo-ikon">🧭</span>JelajahKita</a>
+      <input type="checkbox" id="menu" class="menu-cek">
+      <label for="menu" class="burger" aria-label="Buka menu"><span></span><span></span><span></span></label>
+      <nav class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="paket.html">Paket</a>
+        <a href="layanan.html">Layanan</a>
+
+        <a href="booking.html" class="aktif">Booking</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="login.html" class="btn btn-kecil">Login</a>
+      </nav>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="wrap">
+      <h1>Form Booking</h1>
+      <p>Isi data di bawah, kami akan menghubungi untuk konfirmasi.</p>
+    </div>
+  </section>
+  <section class="wrap info-login">
+    <p>🔒 Booking khusus pengguna terdaftar. Belum login? <a href="login.html#wajib-login">Login dulu di sini</a>.</p>
+  </section>
+  <section class="wrap bagian dua-kolom">
+    <form class="form-kartu" action="booking.html" method="get">
+      <h2>Data Pemesan</h2>
+      <div class="baris">
+        <div>
+          <label for="nama">Nama Lengkap</label>
+          <input id="nama" name="nama" type="text" placeholder="Nama kamu" required>
+        </div>
+        <div>
+          <label for="hp">No. HP</label>
+          <input id="hp" name="hp" type="tel" placeholder="08xxxxxxxxxx" required>
+        </div>
+        <div class="penuh">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+        </div>
+        <div class="penuh">
+          <label for="paket">Pilih Paket Wisata</label>
+          <select id="paket" name="paket">
+            <option>Wisata Danau Rawa Pening</option>
+            <option>Petualangan Kopeng</option>
+            <option>Candi Gedong Songo</option>
+            <option>Paket Alam Sidomukti</option>
+          </select>
+        </div>
+        <div>
+          <label for="tgl">Tanggal Berangkat</label>
+          <input id="tgl" name="tgl" type="date" required>
+        </div>
+        <div>
+          <label for="orang">Jumlah Peserta</label>
+          <input id="orang" name="orang" type="number" min="1" max="12" value="1">
+        </div>
+        <div class="penuh">
+          <label for="jemput">Titik Jemput</label>
+          <input id="jemput" name="jemput" type="text" placeholder="Contoh: Alun-alun Salatiga">
+        </div>
+        <div class="penuh">
+          <label for="cat">Catatan</label>
+          <textarea id="cat" name="cat" rows="3" placeholder="Permintaan khusus (opsional)"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-penuh" type="submit">Kirim Booking</button>
+    </form>
+    <aside class="samping">
+      <div class="kotak">
+        <h3>Tarif Paket</h3>
+        <div class="tabel">
+          <table>
+            <tr>
+              <th>Paket</th>
+              <th>Lokasi</th>
+              <th>Harga</th>
+            </tr>
+            <tr>
+              <td>Wisata Danau Rawa Pening</td>
+              <td>Ambarawa</td>
+              <td>Rp 120.000</td>
+            </tr>
+            <tr>
+              <td>Petualangan Kopeng</td>
+              <td>Kopeng, Getasan</td>
+              <td>Rp 150.000</td>
+            </tr>
+            <tr>
+              <td>Candi Gedong Songo</td>
+              <td>Bandungan</td>
+              <td>Rp 175.000</td>
+            </tr>
+            <tr>
+              <td>Paket Alam Sidomukti</td>
+              <td>Bandungan</td>
+              <td>Rp 225.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="kotak">
+        <h3>Info Penting</h3>
+        <ul class="daftar">
+          <li>Berkumpul 30 menit sebelum berangkat</li>
+          <li>Harga per orang</li>
+          <li>Batal gratis maksimal H-2</li>
+          <li>Bayar transfer atau di tempat</li>
+        </ul>
+      </div>
+    </aside>
+  </section>
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>🧭 JelajahKita</h3>
+        <p>Booking paket wisata Salatiga dan sekitarnya yang mudah, jujur, dan menyenangkan untuk keluarga maupun
+          rombongan.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <a href="paket.html">Paket Wisata</a>
+        <a href="layanan.html">Layanan</a>
+
+        <a href="booking.html">Booking</a>
+        <a href="tentang.html">Tentang</a>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <p>📍 Salatiga, Jawa Tengah</p>
+        <p>📞 0812-3456-7890</p>
+        <p>✉️ info@jelajahkita.example</p>
+      </div>
+    </div>
+    <p class="hak-cipta">&copy; 2026 JelajahKita. Dibuat oleh Kelompok TR.</p>
+  </footer>
+  <script src="js/auth.js"></script>
+</body>
+
+</html>

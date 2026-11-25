@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0b1d3a"/>
+<stop offset="1" stop-color="#2b4f80"/>
+</linearGradient>
+</defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="0" cy="0" r="2" fill="#fff"/>
+<circle cx="137" cy="61" r="2" fill="#fff"/>
+<circle cx="274" cy="122" r="2" fill="#fff"/>
+<circle cx="411" cy="183" r="2" fill="#fff"/>
+<circle cx="548" cy="44" r="2" fill="#fff"/>
+<circle cx="685" cy="105" r="2" fill="#fff"/>
+<circle cx="22" cy="166" r="2" fill="#fff"/>
+<circle cx="159" cy="27" r="2" fill="#fff"/>
+<circle cx="296" cy="88" r="2" fill="#fff"/>
+<circle cx="433" cy="149" r="2" fill="#fff"/>
+<circle cx="570" cy="10" r="2" fill="#fff"/>
+<circle cx="707" cy="71" r="2" fill="#fff"/>
+<circle cx="44" cy="132" r="2" fill="#fff"/>
+<circle cx="181" cy="193" r="2" fill="#fff"/>
+<circle cx="318" cy="54" r="2" fill="#fff"/>
+<circle cx="455" cy="115" r="2" fill="#fff"/>
+<circle cx="592" cy="176" r="2" fill="#fff"/>
+<circle cx="729" cy="37" r="2" fill="#fff"/>
+<circle cx="66" cy="98" r="2" fill="#fff"/>
+<circle cx="203" cy="159" r="2" fill="#fff"/>
+<circle cx="340" cy="20" r="2" fill="#fff"/>
+<circle cx="477" cy="81" r="2" fill="#fff"/>
+<circle cx="614" cy="142" r="2" fill="#fff"/>
+<circle cx="751" cy="3" r="2" fill="#fff"/>
+<circle cx="88" cy="64" r="2" fill="#fff"/>
+<circle cx="225" cy="125" r="2" fill="#fff"/>
+<circle cx="362" cy="186" r="2" fill="#fff"/>
+<circle cx="499" cy="47" r="2" fill="#fff"/>
+<circle cx="636" cy="108" r="2" fill="#fff"/>
+<circle cx="773" cy="169" r="2" fill="#fff"/>
+<circle cx="624.0" cy="110.0" r="50.0" fill="#fff3c4" opacity="0.9"/>
+<path d="M0 350.0 L176.0 190.0 L320.0 310.0 L480.0 170.0 L640.0 320.0 L800 230.0 V500 H0Z" fill="#1c3a63"/>
+<path d="M0 410.0 L224.00000000000003 300.0 L416.0 400.0 L624.0 290.0 L800 380.0 V500 H0Z" fill="#132a4a"/>
+<rect y="430.0" width="800" height="70.0" fill="#0c1d36"/>
+<polygon points="300,430 456.0,430 378.0,313.0" fill="#f2a93b"/>
+<polygon points="378.0,430 362.4,430 378.0,313.0 393.6,430" fill="#8a5a10"/>
+<rect x="115.2" y="388.0" width="9.6" height="21.599999999999998" fill="#5b3a29"/>
+<polygon points="88.8,395.2 151.2,395.2 120,356.8" fill="#1f6f4f"/>
+<polygon points="93.6,373.6 146.4,373.6 120,330.4" fill="#2d8a5f"/>
+<polygon points="100.8,352.0 139.2,352.0 120,308.8" fill="#3aa673"/>
+<rect x="674.4" y="396.0" width="11.2" height="25.2" fill="#5b3a29"/>
+<polygon points="643.6,404.4 716.4,404.4 680,359.6" fill="#1f6f4f"/>
+<polygon points="649.2,379.2 710.8,379.2 680,328.8" fill="#2d8a5f"/>
+<polygon points="657.6,354.0 702.4,354.0 680,303.6" fill="#3aa673"/>
+</svg>

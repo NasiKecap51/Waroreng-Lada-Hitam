@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0b3d3a"/>
+<stop offset="1" stop-color="#2a9d8f"/>
+</linearGradient>
+</defs>
+<rect width="900" height="1100" fill="url(#g)"/>
+<circle cx="702.0" cy="242.0" r="110.0" fill="#f2a93b" opacity="0.9"/>
+<path d="M0 770.0 L198.0 418.0 L360.0 682.0 L540.0 374.0 L720.0 704.0 L900 506.0 V1100 H0Z" fill="#0e4d4a"/>
+<path d="M0 902.0 L252.00000000000003 660.0 L468.0 880.0 L702.0 638.0 L900 836.0 V1100 H0Z" fill="#0a3331"/>
+<rect y="946.0" width="900" height="154.00000000000003" fill="#082826"/>
+<rect x="111.2" y="918.0" width="17.6" height="39.6" fill="#5b3a29"/>
+<polygon points="62.8,931.2 177.2,931.2 120,860.8" fill="#1f6f4f"/>
+<polygon points="71.6,891.6 168.4,891.6 120,812.4" fill="#2d8a5f"/>
+<polygon points="84.8,852.0 155.2,852.0 120,772.8" fill="#3aa673"/>
+<rect x="293.6" y="944.0" width="12.8" height="28.8" fill="#5b3a29"/>
+<polygon points="258.4,953.6 341.6,953.6 300,902.4" fill="#1f6f4f"/>
+<polygon points="264.8,924.8 335.2,924.8 300,867.2" fill="#2d8a5f"/>
+<polygon points="274.4,896.0 325.6,896.0 300,838.4" fill="#3aa673"/>
+<rect x="692" y="920" width="16" height="36" fill="#5b3a29"/>
+<polygon points="648,932 752,932 700,868" fill="#1f6f4f"/>
+<polygon points="656,896 744,896 700,824" fill="#2d8a5f"/>
+<polygon points="668,860 732,860 700,788" fill="#3aa673"/>
+<polygon points="430,980 574.0,980 502.0,872.0" fill="#f2a93b"/>
+<polygon points="502.0,980 487.6,980 502.0,872.0 516.4,980" fill="#8a5a10"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#a9d6f0"/>
+<stop offset="1" stop-color="#ffe6c2"/>
+</linearGradient>
+</defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="624.0" cy="110.0" r="50.0" fill="#f2a93b" opacity="0.9"/>
+<path d="M0 350.0 L176.0 190.0 L320.0 310.0 L480.0 170.0 L640.0 320.0 L800 230.0 V500 H0Z" fill="#7aa8c9"/>
+<path d="M0 410.0 L224.00000000000003 300.0 L416.0 400.0 L624.0 290.0 L800 380.0 V500 H0Z" fill="#4f7fa6"/>
+<rect y="430.0" width="800" height="70.0" fill="#3b6b4a"/>
+<rect x="280.0" y="368.0" width="286.0" height="52.0" fill="#b8b0a2" stroke="#8d8576" stroke-width="2"/>
+<rect x="319.0" y="316.0" width="208.0" height="52.0" fill="#b8b0a2" stroke="#8d8576" stroke-width="2"/>
+<rect x="358.0" y="264.0" width="130.0" height="52.0" fill="#b8b0a2" stroke="#8d8576" stroke-width="2"/>
+<polygon points="384.0,264.0 462.0,264.0 423.0,205.5" fill="#8d8576"/>
+<rect x="407.4" y="381.0" width="31.200000000000003" height="39.0" fill="#4a463e"/>
+<rect x="106" y="380" width="8" height="18" fill="#5b3a29"/>
+<polygon points="84,386 136,386 110,354" fill="#1f6f4f"/>
+<polygon points="88,368 132,368 110,332" fill="#2d8a5f"/>
+<polygon points="94,350 126,350 110,314" fill="#3aa673"/>
+<rect x="695.2" y="388.0" width="9.6" height="21.599999999999998" fill="#5b3a29"/>
+<polygon points="668.8,395.2 731.2,395.2 700,356.8" fill="#1f6f4f"/>
+<polygon points="673.6,373.6 726.4,373.6 700,330.4" fill="#2d8a5f"/>
+<polygon points="680.8,352.0 719.2,352.0 700,308.8" fill="#3aa673"/>
+</svg>
